@@ -10,7 +10,7 @@
 body {
   font-size: 100%;
   color: #8E5D52;
-  background-color: #705947;
+  background-color: hsl(26, 22%, 36%);
 }
 
 .cabecalho {
