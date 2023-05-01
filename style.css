@@ -23,7 +23,7 @@ body {
 }
 
 .cabecalho-imagem {
-  height: 90px;
+  height: 76px;
 }
 
 .cabecalho-menu {
@@ -35,7 +35,7 @@ body {
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .conteudo {
