@@ -9,8 +9,8 @@
 
 body {
   font-size: 100%;
-  color: #8E5D52;
   background-color: hsl(26, 22%, 36%);
+  width: 100%;
 }
 
 .cabecalho {
@@ -18,11 +18,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 24px;
+  padding: 10px;
+  background-color: hsl(25, 25%, 30%);
 }
 
 .cabecalho-imagem {
-  height: 72px;
+  height: 90px;
 }
 
 .cabecalho-menu {
@@ -34,7 +35,7 @@ body {
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
-  font-size: 18px
+  font-size: 19px;
 }
 
 .conteudo {
@@ -53,7 +54,6 @@ body {
   flex-direction: column;
   gap: 25px;
   padding-left: 100px;
-
 }
 
 .conteudo-principal-escrito-titulo {
@@ -72,6 +72,7 @@ body {
   font-size: 20px;
   color: #ECD6C4;
 }
+
 .conteudo-principal-imagem {
   height: 430px;
   position: relative;
@@ -99,19 +100,9 @@ body {
 
 .conteudo-secundario-paragrafo {
   width: 90ch;
-    text-align: center;
+  text-align: center;
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: #ECD6C4
-}
-
-.rodape {
-    padding: 32px;
-}
-
-.rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
 }
